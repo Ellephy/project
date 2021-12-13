@@ -1,0 +1,19 @@
+{
+    "name": "ap2/project",
+    "autoload": {
+        "psr-4": {
+            "Ap2\\Project\\": "src/",
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ellephy",
+            "email": "aungphyopi@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.17"
+    }
+}
